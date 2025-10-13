@@ -423,6 +423,7 @@ elif section == "Results":
     st.markdown("### Rockfall Risk Proportion")
     st.progress(min(int(risk_percent), 100), text=f"{risk_percent:.2f}% of records are risky")
 
+    
     st.markdown("### Risk Classification Breakdown")
     risk_counts = data['rockfall_risk'].value_counts().rename({0: "Safe", 1: "High Risk"})
     st.pyplot(
