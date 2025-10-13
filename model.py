@@ -358,16 +358,16 @@ elif section == "Alerts":
             """, unsafe_allow_html=True)
 
 
-   if st.button("Send Test Notification via Email"):
-        success, msg = send_email(
-            subject="Rockfall Alert",
-            message="Warning! Rockfall detected in Zone Overburden Dump. Please take immediate action.",
-            to_emails=recipients
-        )
-        if success:
-            st.success(msg)
-        else:
-            st.error(msg)
+if st.button("Send Test Notification via Email"):
+    success, msg = send_email(
+        subject="Rockfall Alert",
+        message="Warning! Rockfall detected in Zone Overburden Dump. Please take immediate action.",
+        to_emails=recipients
+    )
+    if success:
+        st.success(msg)
+    else:
+        st.error(msg)
 
 elif section == "Upload Data":
     st.title("Upload New Slope Stability Data")
