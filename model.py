@@ -10,26 +10,28 @@ from email.mime.text import MIMEText
 
 def send_email(subject, message, to_emails):
     sender_email = "dheerajvofficial811@gmail.com"
-    sender_password = "xtrhnhktjpxuxekp"
+    sender_password = "xtrhnhktjpxuxekp" 
 
     msg = MIMEText(message)
     msg['Subject'] = subject
     msg['From'] = sender_email
     msg['To'] = ", ".join(to_emails)
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(sender_email, sender_password)
-
-        server.sendmail(sender_email, to_emails, msg.as_string())
-
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(sender_email, sender_password)
+            server.sendmail(sender_email, to_emails, msg.as_string())
+        return True, "Email sent successfully."
+    except smtplib.SMTPException as e:
+        return False, f"Error sending email: {str(e)}"
 
 recipients = [
     "ashwinvqcon@gmail.com",
     "ss7942911@gmail.com",
     "anand19122004@gmail.com",
     "anshika.tiwari1829@gmail.com",
-
 ]
+
 
 
 send_email(
@@ -356,11 +358,16 @@ elif section == "Alerts":
             """, unsafe_allow_html=True)
 
 
-    if st.button("Send Test Notification"):
-        if notification_method == "None":
-            st.info("Notifications are disabled.")
+   if st.button("Send Test Notification via Email"):
+        success, msg = send_email(
+            subject="Rockfall Alert",
+            message="Warning! Rockfall detected in Zone Overburden Dump. Please take immediate action.",
+            to_emails=recipients
+        )
+        if success:
+            st.success(msg)
         else:
-            st.success(f"Test notification sent via **{notification_method}**.")
+            st.error(msg)
 
 elif section == "Upload Data":
     st.title("Upload New Slope Stability Data")
