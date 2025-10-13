@@ -185,7 +185,8 @@ if section == "Dashboard":
     with col6:
         st.line_chart(data.set_index('timestamp')['reinforcement'])
     st.subheader("Site Image - Mining Area")
-    st.image("D:\mines images\IMG-20251002-WA0004.jpg", caption="Current Site Condition", use_container_width=True)
+    st.image("images/IMG-20251002-WA0004.jpg", caption="Current Site Condition", use_container_width=True)
+
 
 
 elif section == "Prediction":
