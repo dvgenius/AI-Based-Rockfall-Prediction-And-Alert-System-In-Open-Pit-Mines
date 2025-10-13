@@ -364,10 +364,10 @@ elif section == "Alerts":
             message="Warning! Rockfall detected in Zone Overburden Dump. Please take immediate action.",
             to_emails=recipients
     )
-    if success:
-        st.success(msg)
-    else:
-        st.error(msg)
+        if success:
+            st.success(msg)
+        else:
+            st.error(msg)
 
 elif section == "Upload Data":
     st.title("Upload New Slope Stability Data")
