@@ -358,7 +358,7 @@ elif section == "Alerts":
             """, unsafe_allow_html=True)
 
 
-if st.button("Send Test Notification via Email"):
+    if st.button("Send Test Notification via Email"):
     success, msg = send_email(
         subject="Rockfall Alert",
         message="Warning! Rockfall detected in Zone Overburden Dump. Please take immediate action.",
