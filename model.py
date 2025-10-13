@@ -185,7 +185,7 @@ if section == "Dashboard":
     with col6:
         st.line_chart(data.set_index('timestamp')['reinforcement'])
     st.subheader("Site Image - Mining Area")
-    st.image("image\IMG-20251002-WA0004.jpg", caption="Current Site Condition", use_container_width=True)
+    st.image("image/IMG-20251002-WA0004.jpg", caption="Current Site Condition", use_container_width=True)
 
 
 
@@ -373,7 +373,7 @@ elif section == "Upload Data":
         except Exception as e:
             st.error(f"Error processing uploaded file: {e}")
     st.subheader("Site Image - Mining Area")
-    st.image("image\IMG-20251002-WA0004.jpg", caption="Current Site Condition", use_container_width=True)
+    st.image("image/IMG-20251002-WA0004.jpg", caption="Current Site Condition", use_container_width=True)
 
 elif section == "Results":
     st.title("Prediction Results Summary")
