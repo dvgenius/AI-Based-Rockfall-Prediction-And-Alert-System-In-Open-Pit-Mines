@@ -26,7 +26,7 @@ def send_email(subject, message, to_emails):
         return False, f"Error sending email: {str(e)}"
 
 recipients = [
-    "anshika.tiwari1829@gmail.com"
+    ""
 ]
 
 
