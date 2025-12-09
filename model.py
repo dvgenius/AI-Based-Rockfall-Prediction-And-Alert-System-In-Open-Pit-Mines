@@ -9,13 +9,13 @@ import smtplib
 from email.mime.text import MIMEText
 
 def send_email(subject, message, to_emails):
-    sender_email = ""
-    sender_password = "" 
+    sender_email = "dvashwin2004@gmail.com"
+    sender_password = "xtrhnhktjpxuxekp" 
 
     msg = MIMEText(message)
     msg['Subject'] = subject
     msg['From'] = sender_email
-    msg['To'] = ", ".join(to_emails)
+     msg['To']="anjum527@bit.ac.in".join(to_emails)
 
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
