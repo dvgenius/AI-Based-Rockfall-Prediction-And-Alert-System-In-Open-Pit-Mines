@@ -15,7 +15,7 @@ def send_email(subject, message, to_emails):
     msg = MIMEText(message)
     msg['Subject'] = subject
     msg['From'] = sender_email
-     msg['To']="anjum527@bit.ac.in".join(to_emails)
+     msg['To']="anjum527@bit.ac.in, ss7942911@gmail.com".join(to_emails)
 
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
