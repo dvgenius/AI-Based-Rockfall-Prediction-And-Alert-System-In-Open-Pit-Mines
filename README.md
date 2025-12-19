@@ -150,7 +150,7 @@ Email alert is triggered for critical conditions
 ## 📸 Application Screenshots
 
 ### 📊 Dashboard
-![Dashboard](<img width="1920" height="1200" alt="Screenshot 2025-10-09 002818" src="https://github.com/user-attachments/assets/6b8fa2b9-a15e-4fb9-a132-8342c7794428" />
+![Dashboard](<img width="1920" height="1200" alt="dashboard" src="https://github.com/user-attachments/assets/37a83c4c-fec4-4aa5-98df-e56ce3254725" />
 )
 
 ### 🤖 Prediction
