@@ -205,6 +205,3 @@ Multi-mine centralized monitoring
 
 This project is licensed under the MIT License.
 
-👉 clean your notebook
-👉 improve ML explanation
-👉 prepare viva questions & answers
