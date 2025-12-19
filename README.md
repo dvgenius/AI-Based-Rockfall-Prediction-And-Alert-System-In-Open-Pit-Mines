@@ -114,14 +114,10 @@ Email notification sent if risk is high
 
 
 ⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/your-username/AI-Rockfall-Prediction-System.git
-cd AI-Rockfall-Prediction-System
-
-2️⃣ Install Dependencies
+1 Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Run Streamlit App
+2 Run Streamlit App
 streamlit run app.py
 
 📄 Input CSV Requirements
@@ -154,11 +150,11 @@ Email alert is triggered for critical conditions
 ## 📸 Application Screenshots
 
 ### 📊 Dashboard
-![Dashboard](<img width="1920" height="1200" alt="Screenshot 2025-10-09 002818" src="https://github.com/user-attachments/assets/8d60a58f-d294-41cb-a57d-4e10d75b528e" />
+![Dashboard](<img width="1920" height="1200" alt="Screenshot 2025-10-09 002818" src="https://github.com/user-attachments/assets/6e3249ba-1ac9-4844-ba7c-1cc88e9cdd17" />
 )
 
 ### 🤖 Prediction
-![Prediction](<img width="1920" height="1200" alt="Screenshot 2025-10-09 002903" src="https://github.com/user-attachments/assets/076b6fc0-780e-4106-bd05-21dba2cb6f93" />
+![Prediction](<img width="1920" height="1200" alt="Screenshot 2025-10-09 002903" src="https://github.com/user-attachments/assets/6fdd7335-cc35-4bc9-92cd-1b80c1a8e0f0" />
 )
 
 ### 🚨 Alerts
@@ -169,15 +165,15 @@ Email alert is triggered for critical conditions
 (<img width="1920" height="1200" alt="Screenshot 2025-10-18 210959" src="https://github.com/user-attachments/assets/99093a92-842d-4fc5-9362-a82b8b69db89" />
 )
 ### 📂 Upload Data
-![Upload Data](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211013" src="https://github.com/user-attachments/assets/694737f5-9ebf-4bb4-9b03-824721c3b2d4" />
+![Upload Data](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211013" src="https://github.com/user-attachments/assets/363652c3-14f5-4349-b540-2c90618ca306" />
 )
 
 ### 📈 Results
-![Results](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211026" src="https://github.com/user-attachments/assets/39bcf51b-a86c-4002-ad90-1df828d3264a" />
+![Results](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211026" src="https://github.com/user-attachments/assets/06a872b3-3bdc-414f-8c4c-8d8a5bfe353e" />
 )
 
 ### 💬 AI Assistant
-![AI Assistant](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211052" src="https://github.com/user-attachments/assets/5f97ccba-544b-4165-9002-b012de461d95" />
+![AI Assistant](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211052" src="https://github.com/user-attachments/assets/a35d9690-8fac-4f86-8773-2a22506bde39" />
 )
 
 ⚠️ Limitations
