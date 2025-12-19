@@ -150,30 +150,33 @@ Email alert is triggered for critical conditions
 ## 📸 Application Screenshots
 
 ### 📊 Dashboard
+
 (<img width="1920" height="1200" alt="dashboard" src="https://github.com/user-attachments/assets/9fb9569c-5dad-4ee7-8a59-e0bf35a16841" />
 )
 
 ### 🤖 Prediction
+
 (<img width="1920" height="1200" alt="Screenshot 2025-10-09 002903" src="https://github.com/user-attachments/assets/6fdd7335-cc35-4bc9-92cd-1b80c1a8e0f0" />
 )
 
 ### 🚨 Alerts
-![Alerts](<img width="1920" height="1200" alt="Screenshot 2025-10-18 210911" src="https://github.com/user-attachments/assets/23960da9-05a6-4391-a8a8-cd25dc5e3ae5" />
+
+(<img width="1920" height="1200" alt="Screenshot 2025-10-18 210911" src="https://github.com/user-attachments/assets/23960da9-05a6-4391-a8a8-cd25dc5e3ae5" />
 )
 (<img width="1920" height="1200" alt="Screenshot 2025-10-18 210933" src="https://github.com/user-attachments/assets/4f507c50-4c4e-4d4d-b5f2-d8f09778e77c" />
 )
 (<img width="1920" height="1200" alt="Screenshot 2025-10-18 210959" src="https://github.com/user-attachments/assets/99093a92-842d-4fc5-9362-a82b8b69db89" />
 )
 ### 📂 Upload Data
-![Upload Data](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211013" src="https://github.com/user-attachments/assets/363652c3-14f5-4349-b540-2c90618ca306" />
+(<img width="1920" height="1200" alt="Screenshot 2025-10-18 211013" src="https://github.com/user-attachments/assets/363652c3-14f5-4349-b540-2c90618ca306" />
 )
 
 ### 📈 Results
-![Results](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211026" src="https://github.com/user-attachments/assets/06a872b3-3bdc-414f-8c4c-8d8a5bfe353e" />
+(<img width="1920" height="1200" alt="Screenshot 2025-10-18 211026" src="https://github.com/user-attachments/assets/06a872b3-3bdc-414f-8c4c-8d8a5bfe353e" />
 )
 
 ### 💬 AI Assistant
-![AI Assistant](<img width="1920" height="1200" alt="Screenshot 2025-10-18 211052" src="https://github.com/user-attachments/assets/a35d9690-8fac-4f86-8773-2a22506bde39" />
+(<img width="1920" height="1200" alt="Screenshot 2025-10-18 211052" src="https://github.com/user-attachments/assets/a35d9690-8fac-4f86-8773-2a22506bde39" />
 )
 
 ⚠️ Limitations
