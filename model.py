@@ -9,8 +9,8 @@ import smtplib
 from email.mime.text import MIMEText
 
 def send_email(subject, message, to_emails):
-    sender_email = ""
-    sender_password = "" 
+    sender_email = "dheerajvofficial811@gmail.com"
+    sender_password = "lcokoopavpjpxywj" 
 
     msg = MIMEText(message)
     msg['Subject'] = subject
@@ -26,7 +26,10 @@ def send_email(subject, message, to_emails):
         return False, f"Error sending email: {str(e)}"
 
 recipients = [
-    ""
+    "ashwinvqcon@gmail.com",
+    "ss7942911@gmail.com",
+    "anand19122004@gmail.com",
+    "anshika.tiwari1829@gmail.com",
 ]
 
 
