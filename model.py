@@ -25,7 +25,7 @@ def send_email(subject, message, to_emails):
     except smtplib.SMTPException as e:
         return False, f"Error sending email: {str(e)}"
 
-recipients = [
+recipients = [""
  
 ]
 
