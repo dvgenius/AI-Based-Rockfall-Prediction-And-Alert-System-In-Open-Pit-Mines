@@ -68,6 +68,7 @@ The Streamlit app uses this model for prediction, with a rule-based fallback if 
 💬 AI Assistant for safety insights
 
 🛠️ Technology Stack
+
 Programming & Frameworks
 
 Python 3.x
