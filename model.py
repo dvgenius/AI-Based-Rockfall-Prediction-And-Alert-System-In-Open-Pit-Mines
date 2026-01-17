@@ -4,7 +4,6 @@ import numpy as np
 from datetime import datetime, timedelta
 from pandas.errors import EmptyDataError
 import joblib
-
 import smtplib
 from email.mime.text import MIMEText
 
